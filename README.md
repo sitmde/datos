@@ -1,5 +1,7 @@
 # Migratory flow of Colombians
 
+This dataset provides information on migration flows from 2012 to 2024.
+
 | Column Name               | Description                                                                                                                     | Type |
 |---------------------------|---------------------------------------------------------------------------------------------------------------------------------|------|
 | cantidad_de_filas         | Total number of migration flow records.                                                                                        |   integer |
@@ -25,6 +27,8 @@
 
 
 # National Tourism Registry - RNT
+
+Public registry in which all tourism service providers operating within the territory of Colombia must register.
 
 | Column Name                       | Description                                                                                                  | Data Type   |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------|-------------|
