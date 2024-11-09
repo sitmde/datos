@@ -1,4 +1,4 @@
-# Flujo migratorio de Colombianos
+# Migratory flow of Colombians
 
 | Column Name               | Description                                                                                                                     | Type |
 |---------------------------|---------------------------------------------------------------------------------------------------------------------------------|------|
@@ -24,7 +24,7 @@
 
 
 
-# Registro Nacional de Turismo - RNT
+# National Tourism Registry - RNT
 
 | Column Name                       | Description                                                                                                  | Data Type   |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------|-------------|
