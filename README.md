@@ -24,3 +24,22 @@
 
 
 
+# Registro Nacional de Turismo - RNT
+
+| Column Name                       | Description                                                                                                  | Data Type   |
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------|-------------|
+| ano                                | Year corresponding to the national tourism registry                                                         | Number      |
+| mes                                | Month number corresponding to the National Tourism Registry                                                 | Number      |
+| codigo_rnt                         | National Tourism Registry number                                                                            | Number      |
+| cod_mun                            | Divipola code for the municipality established by DANE                                                      | Number      |
+| cod_dpto                           | Divipola code for the department established by DANE                                                        | Number      |
+| estado_rnt                         | Current status of the establishment's National Tourism Registry                                             | Text        |
+| razon_social_establecimiento       | Name of the establishment                                                                                   | Text        |
+| departamento                       | Name of the department in Colombia                                                                          | Text        |
+| municipio                          | Name of the municipality in Colombia                                                                        | Text        |
+| categoria                          | General description of tourism activities, e.g., travel agency, lodging establishment, etc.                 | Text        |
+| sub_categoria                      | Specific tourism activities within the general category, e.g., travel agency, hotel, apart-hotel, etc.      | Text        |
+| habitaciones                       | Number of rooms available (if applicable)                                                                   | Number      |
+| camas                              | Total number of beds available (if applicable)                                                              | Number      |
+| num_emp1                            | Total number of employees in the establishment (if applicable)                                             | Number      |
+| correo_establecimiento             | Establishment's email address                                                                               | Text        |
