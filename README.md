@@ -51,7 +51,7 @@ Public registry in which all tourism service providers operating within the terr
 
 # HSI 
 
-Fuente SIT, datos Mabrian
+Source SIT, Mabrian data
 
 | # | Column       | Description | Non-Null Count | Dtype   |
 |---|--------------| ------------|----------------|---------|
