@@ -120,7 +120,7 @@ This `DataFrame` contains information on **91,341 hotel bookings**, with a total
 This dataset provides comprehensive information on hotel bookings, allowing for analysis of booking destinations, advance booking periods, and average prices. The `advance_period_weeks` and `avg_price` columns are useful for exploring trends in booking lead times and pricing.
 
 
-# Analysis of Missing Data in Tourism Reports for Medellín
+# ATRACTIVOS
 
 This `DataFrame` contains **309 entries** across **8 columns**, representing tourism reports from various attractions in Medellín submitted to the Tourism Intelligence System. dataset.
 
