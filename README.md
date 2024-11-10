@@ -66,3 +66,30 @@ Source SIT, Mabrian data
 - **Total Columns**: 5
 - **Data Types**: 4 object, 1 float64
 - **Memory Usage**: 3.2+ KB
+
+
+# HOTELS 
+
+This `DataFrame` contains information on 215 hotels, with a total of 7 columns. Below is a description of each variable in the dataset.
+
+| # | Variable              | Type     | Non-Null Count | Description |
+|---|-----------------------|----------|----------------|-------------|
+| 0 | `sustainability_level` | object   | 88            | The sustainability level of the hotel. Indicates the hotel's commitment to sustainable practices. May be categorized into levels or categories and contains missing values for hotels without sustainability information. |
+| 1 | `hotel_groupings`      | object   | 215           | Hotel groupings. This variable classifies hotels into different groups, possibly based on shared characteristics or location. All entries have a value in this column. |
+| 2 | `name`                 | object   | 215           | The name of the hotel. The unique identifier or commercial name of each hotel in the dataset. No missing values. |
+| 3 | `stars`                | int64    | 215           | The hotel's star rating (integer). Indicates the category or quality of the hotel, usually on a scale from 1 to 5. No missing values. |
+| 4 | `latitude`             | float64  | 213           | The latitude of the hotel. Geographic coordinate indicating the hotel's position in terms of latitude. Two records contain missing values. |
+| 5 | `longitude`            | float64  | 213           | The longitude of the hotel. Geographic coordinate indicating the hotel's position in terms of longitude. Two records contain missing values. |
+| 6 | `id`                   | object   | 215           | Unique identifier for each hotel. This is a unique identifier in text format for each hotel. No missing values. |
+
+## DataFrame Summary
+
+- **Total Entries**: 215
+- **Total Columns**: 7
+- **Data Types**: 
+  - 4 columns of type `object`
+  - 1 column of type `int64`
+  - 2 columns of type `float64`
+- **Memory Usage**: 11.9 KB
+
+This dataset allows for analysis of geographic location, star ratings, sustainability levels, and other hotel characteristics. The coordinate columns (`latitude` and `longitude`) are useful for spatial analyses or map visualizations.
