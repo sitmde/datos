@@ -93,3 +93,29 @@ This `DataFrame` contains information on 215 hotels, with a total of 7 columns. 
 - **Memory Usage**: 11.9 KB
 
 This dataset allows for analysis of geographic location, star ratings, sustainability levels, and other hotel characteristics. The coordinate columns (`latitude` and `longitude`) are useful for spatial analyses or map visualizations.
+
+
+# HOTELS_PRICES
+
+This `DataFrame` contains information on **91,341 hotel bookings**, with a total of 6 columns. Below is a description of each variable in the dataset.
+
+| # | Variable               | Type     | Non-Null Count | Description |
+|---|-------------------------|----------|----------------|-------------|
+| 0 | `destination`          | object   | 91341         | Destination where the hotel is located. This is a categorical variable indicating the location or city where the booking is made. |
+| 1 | `hotel_id`             | object   | 91341         | Unique identifier for each hotel. This column serves as an ID for each hotel in the dataset. No missing values. |
+| 2 | `checkin_date`         | object   | 91341         | Check-in date for the booking. Indicates the specific date when the guest is scheduled to check into the hotel. |
+| 3 | `period`               | object   | 91341         | Period or time frame associated with the booking. This may represent the season or specific booking period for analysis. |
+| 4 | `advance_period_weeks` | int64    | 91341         | Advance booking period in weeks. Specifies the number of weeks in advance the booking was made prior to the check-in date. |
+| 5 | `avg_price`            | int64    | 91341         | Average price of the booking in local currency. Represents the average booking price for each reservation. No missing values. |
+
+## DataFrame Summary
+
+- **Total Entries**: 91,341
+- **Total Columns**: 6
+- **Data Types**: 
+  - 4 columns of type `object`
+  - 2 columns of type `int64`
+- **Memory Usage**: 4.2 MB
+
+This dataset provides comprehensive information on hotel bookings, allowing for analysis of booking destinations, advance booking periods, and average prices. The `advance_period_weeks` and `avg_price` columns are useful for exploring trends in booking lead times and pricing.
+
