@@ -1,4 +1,8 @@
-# Migratory flow of Colombians
+# SIT
+
+The following sources are collected by the Tourism Intelligence team through engagements with various public and private entities.
+
+## Migratory flow of Colombians
 
 This dataset provides information on migration flows from 2012 to 2024.
 
@@ -26,7 +30,7 @@ This dataset provides information on migration flows from 2012 to 2024.
 
 
 
-# National Tourism Registry - RNT
+## National Tourism Registry - RNT
 
 Public registry in which all tourism service providers operating within the territory of Colombia must register.
 
@@ -49,7 +53,7 @@ Public registry in which all tourism service providers operating within the terr
 | correo_establecimiento             | Establishment's email address                                                                               | Text        |
 
 
-# HSI 
+## HSI 
 
 Source SIT, Mabrian data
 
@@ -68,7 +72,7 @@ Source SIT, Mabrian data
 - **Memory Usage**: 3.2+ KB
 
 
-# HOTELS 
+## HOTELS 
 
 This `DataFrame` contains information on 215 hotels, with a total of 7 columns. Below is a description of each variable in the dataset.
 
@@ -82,7 +86,7 @@ This `DataFrame` contains information on 215 hotels, with a total of 7 columns. 
 | 5 | `longitude`            | float64  | 213           | The longitude of the hotel. Geographic coordinate indicating the hotel's position in terms of longitude. Two records contain missing values. |
 | 6 | `id`                   | object   | 215           | Unique identifier for each hotel. This is a unique identifier in text format for each hotel. No missing values. |
 
-## DataFrame Summary
+### DataFrame Summary
 
 - **Total Entries**: 215
 - **Total Columns**: 7
@@ -95,7 +99,7 @@ This `DataFrame` contains information on 215 hotels, with a total of 7 columns. 
 This dataset allows for analysis of geographic location, star ratings, sustainability levels, and other hotel characteristics. The coordinate columns (`latitude` and `longitude`) are useful for spatial analyses or map visualizations.
 
 
-# HOTELS_PRICES
+## HOTELS_PRICES
 
 This `DataFrame` contains information on **91,341 hotel bookings**, with a total of 6 columns. Below is a description of each variable in the dataset.
 
@@ -108,7 +112,7 @@ This `DataFrame` contains information on **91,341 hotel bookings**, with a total
 | 4 | `advance_period_weeks` | int64    | 91341         | Advance booking period in weeks. Specifies the number of weeks in advance the booking was made prior to the check-in date. |
 | 5 | `avg_price`            | int64    | 91341         | Average price of the booking in local currency. Represents the average booking price for each reservation. No missing values. |
 
-## DataFrame Summary
+### DataFrame Summary
 
 - **Total Entries**: 91,341
 - **Total Columns**: 6
@@ -120,7 +124,7 @@ This `DataFrame` contains information on **91,341 hotel bookings**, with a total
 This dataset provides comprehensive information on hotel bookings, allowing for analysis of booking destinations, advance booking periods, and average prices. The `advance_period_weeks` and `avg_price` columns are useful for exploring trends in booking lead times and pricing.
 
 
-# ATRACTIVOS
+## ATRACTIVOS
 
 This `DataFrame` contains **309 entries** across **8 columns**, representing tourism reports from various attractions in Medellín submitted to the Tourism Intelligence System. dataset.
 
