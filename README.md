@@ -119,3 +119,19 @@ This `DataFrame` contains information on **91,341 hotel bookings**, with a total
 
 This dataset provides comprehensive information on hotel bookings, allowing for analysis of booking destinations, advance booking periods, and average prices. The `advance_period_weeks` and `avg_price` columns are useful for exploring trends in booking lead times and pricing.
 
+
+# Analysis of Missing Data in Tourism Reports for Medellín
+
+This `DataFrame` contains **309 entries** across **8 columns**, representing tourism reports from various attractions in Medellín submitted to the Tourism Intelligence System. dataset.
+
+| # | Column                    | Non-Null Count | Null Count | Null Percentage (%) | Dtype    | Description |
+|---|----------------------------|----------------|------------|----------------------|----------|-------------|
+| 0 | `marca_temporal`           | 309           | 0          | 0.0%                | object   | Timestamp indicating when the report was submitted. |
+| 1 | `puntuacion`               | 309           | 0          | 0.0%                | float64  | Visitor rating of the attraction, on a given scale (e.g., 1-5). |
+| 2 | `mes`                      | 309           | 0          | 0.0%                | object   | Month of the report, indicating the period for which the data was collected. |
+| 3 | `atractivo`                | 309           | 0          | 0.0%                | object   | Name or identifier of the tourist attraction in Medellín. |
+| 4 | `ingresos_asistentes`      | 309           | 0          | 0.0%                | float64  | Revenue generated from attendees or visitors to the attraction. |
+| 5 | `ingresos_nacionales`      | 98            | 211        | 68.3%               | float64  | Revenue from national visitors. High missing data may indicate attractions that didn't report or have fewer national visitors. |
+| 6 | `ingresos_internacionales` | 98            | 211        | 68.3%               | float64  | Revenue from international visitors. High missing data may indicate attractions with fewer or no international visitors, or lack of reporting. |
+| 7 | `agnio`                    | 219           | 90         | 29.1%               | float64  | Year in which the data was collected. Missing values may imply incomplete records or issues in data collection. |
+
