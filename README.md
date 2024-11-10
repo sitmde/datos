@@ -47,3 +47,22 @@ Public registry in which all tourism service providers operating within the terr
 | camas                              | Total number of beds available (if applicable)                                                              | Number      |
 | num_emp1                            | Total number of employees in the establishment (if applicable)                                             | Number      |
 | correo_establecimiento             | Establishment's email address                                                                               | Text        |
+
+
+# HSI 
+
+Fuente SIT, datos Mabrian
+
+| # | Column       | Description | Non-Null Count | Dtype   |
+|---|--------------| ------------|----------------|---------|
+| 0 | destination  | Medellín       | 80 non-null    | object  |
+| 1 | origin       | Country origin | 53 non-null    | object  |
+| 2 | hotel_id     | hotel identifier | 80 non-null    | object  |
+| 3 | start_date   | Reported month | 80 non-null    | object  |
+| 4 | hsi          | Hotel satisfaction index  | 80 non-null    | float64 |
+
+**Summary**
+- **Entries**: 80
+- **Total Columns**: 5
+- **Data Types**: 4 object, 1 float64
+- **Memory Usage**: 3.2+ KB
